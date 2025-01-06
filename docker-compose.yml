@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  rag_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rag_app_container
+    ports:
+      - "5000:5000"  # Expose the Flask app on port 5000
+    environment:
+      - FLASK_APP=rag_app.py
+      - FLASK_ENV=development
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    volumes:
+      - .:/app  # Mount the current directory to /app inside the container
+    depends_on:
+      - redis  # Ensure Redis is available before rag_app starts
+    networks:
+      - rag_network
+
+  redis:
+    image: redis:latest
+    container_name: redis_container
+    ports:
+      - "6379:6379"  # Expose Redis on port 6379
+    networks:
+      - rag_network
+
+networks:
+  rag_network:
+    driver: bridge
