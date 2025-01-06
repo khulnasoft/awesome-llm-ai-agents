@@ -14,7 +14,7 @@ LLM app with RAG to chat with Gmail in just 30 lines of Python Code. The app use
 
 ```bash
 git clone https://github.com/khulnasoft/awesome-llm-ai-agents.git
-cd awesome-llm-ai-agents/examples/chat_with_gmail
+cd awesome-llm-ai-agents/examples/gmail
 ```
 2. Install the required dependencies
 

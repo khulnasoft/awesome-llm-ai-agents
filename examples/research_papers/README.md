@@ -12,7 +12,7 @@ This Streamlit app enables you to engage in interactive conversations with arXiv
 
 ```bash
 git clone https://github.com/khulnasoft/awesome-llm-ai-agents.git
-cd awesome-llm-ai-agents/examples/chat_with_research_papers
+cd awesome-llm-ai-agents/examples/research_papers
 ```
 2. Install the required dependencies:
 

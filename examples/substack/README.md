@@ -12,7 +12,7 @@ Streamlit app that allows you to chat with a Substack newsletter using OpenAI's 
 
 ```bash
 git clone https://github.com/khulnasoft/awesome-llm-ai-agents.git
-cd awesome-llm-ai-agents/examples/chat_with_substack
+cd awesome-llm-ai-agents/examples/substack
 ```
 2. Install the required dependencies:
 

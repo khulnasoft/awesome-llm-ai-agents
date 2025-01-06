@@ -49,11 +49,11 @@ A curated collection of awesome LLM apps built with RAG and AI agents. This repo
 - [🗄️ Local ChatGPT with Memory](https://github.com/khulnasoft/awesome-llm-ai-agents/tree/main/src/agents/memory_apps/local_chatgpt_with_memory)
 
 ### Chat with X
-- [💬 Chat with GitHub Repo](https://github.com/khulnasoft/awesome-llm-ai-agents/tree/main/examples/chat_with_github)
-- [📨 Chat with Gmail](https://github.com/khulnasoft/awesome-llm-ai-agents/tree/main/examples/chat_with_gmail)
-- [📄 Chat with PDF](https://github.com/khulnasoft/awesome-llm-ai-agents/tree/main/examples/chat_with_pdf)
-- [📚 Chat with Research Papers](https://github.com/khulnasoft/awesome-llm-ai-agents/tree/main/examples/chat_with_research_papers)
-- [📝 Chat with Substack Newsletter](https://github.com/khulnasoft/awesome-llm-ai-agents/tree/main/examples/chat_with_substack)
+- [💬 Chat with GitHub Repo](https://github.com/khulnasoft/awesome-llm-ai-agents/tree/main/examples/github)
+- [📨 Chat with Gmail](https://github.com/khulnasoft/awesome-llm-ai-agents/tree/main/examples/gmail)
+- [📄 Chat with PDF](https://github.com/khulnasoft/awesome-llm-ai-agents/tree/main/examples/pdf)
+- [📚 Chat with Research Papers](https://github.com/khulnasoft/awesome-llm-ai-agents/tree/main/examples/research_papers)
+- [📝 Chat with Substack Newsletter](https://github.com/khulnasoft/awesome-llm-ai-agents/tree/main/examples/substack)
 - [📽️ Chat with YouTube Videos](https://github.com/khulnasoft/awesome-llm-ai-agents/tree/main/examples/youtube)
 
 ### LLM Finetuning
@@ -80,7 +80,7 @@ A curated collection of awesome LLM apps built with RAG and AI agents. This repo
 2. **Navigate to the desired project directory**
 
     ```bash 
-    cd awesome-llm-ai-agents/examples/chat_with_gmail
+    cd awesome-llm-ai-agents/examples/gmail
     ```
 
 3. **Install the required dependencies**

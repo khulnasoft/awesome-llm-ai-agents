@@ -14,7 +14,7 @@ LLM app with RAG to chat with PDF in just 30 lines of Python Code. The app uses 
 
 ```bash
 git clone https://github.com/khulnasoft/awesome-llm-ai-agents.git
-cd awesome-llm-ai-agents/examples/chat_with_pdf
+cd awesome-llm-ai-agents/examples/pdf
 ```
 2. Install the required dependencies
 

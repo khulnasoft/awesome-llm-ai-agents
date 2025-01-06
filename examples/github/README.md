@@ -14,7 +14,7 @@ LLM app with RAG to chat with GitHub Repo in just 30 lines of Python Code. The a
 
 ```bash
 git clone https://github.com/khulnasoft/awesome-llm-ai-agents.git
-cd awesome-llm-ai-agents/examples/chat_with_github
+cd awesome-llm-ai-agents/examples/github
 ```
 2. Install the required dependencies:
 
